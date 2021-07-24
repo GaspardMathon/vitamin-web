@@ -7,7 +7,8 @@
   "scripts": {
     "build-storybook": "build-storybook",
     "build-storybook:docs": "build-storybook --docs",
-    "start": "start-storybook -p 6006"
+    "start": "start-storybook -p 6006",
+    "chromatic": "npx chromatic --project-token=afef2be8103a"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^6.3.5",
@@ -22,6 +23,7 @@
     "@vtmn/icons": "*",
     "@vtmn/showcase-core": "*",
     "@whitespace/storybook-addon-html": "^5.0.0",
+    "chromatic": "^5.10.0-canary.0",
     "storybook-addon-designs": "^6.0.0",
     "storybook-addon-outline": "^1.4.0",
     "storybook-design-token": "^0.8.1",
