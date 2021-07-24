@@ -21,12 +21,12 @@
   border: none;
   background-color: var(--vtmn-color_white);
   border-radius: rem(4px);
-  display: block;
+  display: inline-block;
   font-weight: var(--vtmn-typo_font-weight--regular);
   font-size: rem(16px);
-  line-height: 1;
-  margin-bottom: rem(4px);
-  margin-top: rem(4px);
+  line-height: 1.2;
+  margin-bottom: rem(6px);
+  margin-top: rem(6px);
   padding: rem(12px) rem(36px) rem(12px) rem(12px);
   color: var(--vtmn-color_black);
   min-height: rem(48px);
